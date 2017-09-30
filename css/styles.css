@@ -143,9 +143,10 @@ header.masthead {
   #portfolio .portfolio-item .portfolio-link {
     position: relative;
     display: block;
-    max-width: 400px;
+    max-width: 600px;
     margin: 0 auto;
-    cursor: pointer; }
+    cursor: pointer; 
+  }
     #portfolio .portfolio-item .portfolio-link .caption {
       position: absolute;
       width: 100%;
