@@ -78,6 +78,7 @@ nav {
   display: block;
   margin: auto; 
   text-align: -webkit-center;
+  text-align: center;
 }
 
 nav h2 {
@@ -97,6 +98,7 @@ nav h2 {
     display: block;
     margin: auto; 
     text-align: -webkit-center;
+    text-align: center;
   }
 nav h2 {
   color: black;
