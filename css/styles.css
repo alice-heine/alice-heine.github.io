@@ -101,7 +101,7 @@ nav h2 {
   color: black;
   padding: 50px 0px 10px 0px;
   font-style: normal;
-  font-size: 28px;
+  font-size: 35px;
   line-height: 1.5em;
   text-transform: uppercase;
 }
@@ -140,7 +140,7 @@ header.masthead .intro-text h1 {
     padding-top: 100px;
   }
   header.masthead .intro-text h1 {
-    font-size: 64px;
+    font-size: 50px;
     line-height: 1.5em;
   }
 }
