@@ -12,21 +12,21 @@ body {
 }
 /* line 10, ../sass/screen.scss */
 .body-container .inner-body-container {
-  max-width: 1000px;
+  max-width: 800px;
   margin: auto;
 }
 
-/* line 18, ../sass/screen.scss */
+/* line 17, ../sass/screen.scss */
 p {
   font-size: 20px;
 }
 
-/* line 22, ../sass/screen.scss */
+/* line 21, ../sass/screen.scss */
 p.small {
   font-size: 16px;
 }
 
-/* line 26, ../sass/screen.scss */
+/* line 25, ../sass/screen.scss */
 a,
 a.active,
 a:active,
@@ -37,7 +37,7 @@ a:hover {
   color: #000000;
 }
 
-/* line 35, ../sass/screen.scss */
+/* line 34, ../sass/screen.scss */
 h1,
 h2,
 h3,
@@ -47,38 +47,33 @@ h6 {
   font-weight: 700;
 }
 
-/* line 43, ../sass/screen.scss */
+/* line 42, ../sass/screen.scss */
 .img-centered {
   margin: 0 auto;
 }
 
-/* line 47, ../sass/screen.scss */
+/* line 46, ../sass/screen.scss */
 section {
   padding: 75px 0;
 }
-/* line 49, ../sass/screen.scss */
+/* line 48, ../sass/screen.scss */
 section h2 {
   margin-bottom: 25px;
 }
 
-/* line 54, ../sass/screen.scss */
+/* line 53, ../sass/screen.scss */
 section.success {
   color: white;
   background: #18BC9C;
 }
 
 @media (max-width: 767px) {
-  /* line 60, ../sass/screen.scss */
+  /* line 59, ../sass/screen.scss */
   section {
     padding: 50px 0;
   }
-
-  /* line 63, ../sass/screen.scss */
-  section.first {
-    padding-top: 75px;
-  }
 }
-/* line 68, ../sass/screen.scss */
+/* line 64, ../sass/screen.scss */
 .scroll-top {
   position: fixed;
   z-index: 1049;
@@ -87,7 +82,7 @@ section.success {
   width: 50px;
   height: 50px;
 }
-/* line 75, ../sass/screen.scss */
+/* line 71, ../sass/screen.scss */
 .scroll-top .btn {
   font-size: 16px;
   line-height: 28px;
@@ -96,12 +91,12 @@ section.success {
   text-align: center;
   border-radius: 100%;
 }
-/* line 83, ../sass/screen.scss */
+/* line 79, ../sass/screen.scss */
 .scroll-top .btn:focus {
   outline: none;
 }
 
-/* line 89, ../sass/screen.scss */
+/* line 85, ../sass/screen.scss */
 nav {
   font-weight: 700;
   text-transform: uppercase;
@@ -111,7 +106,7 @@ nav {
   text-align: -webkit-center;
   text-align: center;
 }
-/* line 97, ../sass/screen.scss */
+/* line 93, ../sass/screen.scss */
 nav h2 {
   color: black;
   padding: 50px 0px 10px 0px;
@@ -122,7 +117,7 @@ nav h2 {
 }
 
 @media (min-width: 992px) {
-  /* line 108, ../sass/screen.scss */
+  /* line 104, ../sass/screen.scss */
   nav {
     padding-top: 25px;
     padding-bottom: 25px;
@@ -131,19 +126,19 @@ nav h2 {
     text-align: -webkit-center;
     text-align: center;
   }
-  /* line 115, ../sass/screen.scss */
+  /* line 111, ../sass/screen.scss */
   nav h2 {
     color: black;
   }
 }
-/* line 121, ../sass/screen.scss */
+/* line 117, ../sass/screen.scss */
 header.masthead {
   padding-top: 50px;
   padding-bottom: 50px;
   text-align: center;
   color: black;
 }
-/* line 126, ../sass/screen.scss */
+/* line 122, ../sass/screen.scss */
 header.masthead .intro-text h1 {
   font-weight: 400;
   font-style: normal;
@@ -151,26 +146,26 @@ header.masthead .intro-text h1 {
 }
 
 @media (min-width: 768px) {
-  /* line 135, ../sass/screen.scss */
-  header.masthead {
-    padding-top: 100px;
-  }
-  /* line 137, ../sass/screen.scss */
+  /* line 132, ../sass/screen.scss */
   header.masthead .intro-text h1 {
-    font-size: 50px;
-    line-height: 1.5em;
+    font-size: 40px;
+    line-height: 1.4em;
   }
 }
-/* line 144, ../sass/screen.scss */
+/* line 140, ../sass/screen.scss */
+#portfolio h2 {
+  margin-bottom: 50px;
+}
+/* line 143, ../sass/screen.scss */
 #portfolio .portfolio-item {
   right: 0;
   margin: 0 0 15px;
 }
-/* line 147, ../sass/screen.scss */
+/* line 146, ../sass/screen.scss */
 #portfolio .portfolio-item h6 {
   margin-top: 16px;
 }
-/* line 150, ../sass/screen.scss */
+/* line 149, ../sass/screen.scss */
 #portfolio .portfolio-item .portfolio-link {
   position: relative;
   display: block;
@@ -178,7 +173,7 @@ header.masthead .intro-text h1 {
   margin: 0 auto;
   cursor: pointer;
 }
-/* line 156, ../sass/screen.scss */
+/* line 155, ../sass/screen.scss */
 #portfolio .portfolio-item .portfolio-link .caption {
   position: absolute;
   width: 100%;
@@ -189,7 +184,7 @@ header.masthead .intro-text h1 {
   opacity: 0;
   background: #b7b7b7;
 }
-/* line 165, ../sass/screen.scss */
+/* line 164, ../sass/screen.scss */
 #portfolio .portfolio-item .portfolio-link .caption .caption-content {
   font-size: 20px;
   position: absolute;
@@ -200,15 +195,15 @@ header.masthead .intro-text h1 {
   text-align: center;
   color: white;
 }
-/* line 174, ../sass/screen.scss */
+/* line 173, ../sass/screen.scss */
 #portfolio .portfolio-item .portfolio-link .caption .caption-content i {
   margin-top: -12px;
 }
-/* line 177, ../sass/screen.scss */
+/* line 176, ../sass/screen.scss */
 #portfolio .portfolio-item .portfolio-link .caption .caption-content h3, #portfolio .portfolio-item .portfolio-link .caption .caption-content h4 {
   margin: 0;
 }
-/* line 182, ../sass/screen.scss */
+/* line 181, ../sass/screen.scss */
 #portfolio .portfolio-item .portfolio-link .caption:hover {
   opacity: .8;
 }
