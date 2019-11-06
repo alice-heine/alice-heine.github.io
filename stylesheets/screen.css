@@ -296,13 +296,13 @@ i {
   #intro .container .grid-wrapper {
     display: grid;
     grid-gap: 10px;
-    grid-template-columns: 50% 50%;
+    grid-template-columns: 100%;
     padding-bottom: 40px;
   }
   /* line 248, ../sass/screen.scss */
   #intro .container .grid-wrapper .first-pic {
-    grid-column: 1/2;
-    grid-row: 1;
+    grid-column: 1;
+    grid-row: 2;
   }
   /* line 252, ../sass/screen.scss */
   #intro .container .grid-wrapper .first-pic img {
@@ -311,20 +311,20 @@ i {
   }
   /* line 258, ../sass/screen.scss */
   #intro .container .grid-wrapper .first-info {
-    grid-column: 2;
+    grid-column: 1;
     grid-row: 1;
     align-self: center;
   }
   /* line 264, ../sass/screen.scss */
   #intro .container .grid-wrapper .second-info {
-    grid-column: 1/2;
-    grid-row: 2;
+    grid-column: 1;
+    grid-row: 3;
     align-self: center;
   }
   /* line 270, ../sass/screen.scss */
   #intro .container .grid-wrapper .second-pic {
-    grid-column: 2;
-    grid-row: 2;
+    grid-column: 1;
+    grid-row: 4;
   }
   /* line 274, ../sass/screen.scss */
   #intro .container .grid-wrapper .second-pic img {
@@ -333,8 +333,8 @@ i {
   }
   /* line 281, ../sass/screen.scss */
   #intro .container .grid-wrapper .third-pic {
-    grid-column: 1/2;
-    grid-row: 3;
+    grid-column: 1;
+    grid-row: 6;
   }
   /* line 285, ../sass/screen.scss */
   #intro .container .grid-wrapper .third-pic img {
@@ -343,8 +343,8 @@ i {
   }
   /* line 291, ../sass/screen.scss */
   #intro .container .grid-wrapper .third-info {
-    grid-column: 2;
-    grid-row: 3;
+    grid-column: 1;
+    grid-row: 5;
     align-self: center;
   }
 

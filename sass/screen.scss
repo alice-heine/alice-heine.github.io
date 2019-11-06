@@ -242,12 +242,12 @@ i {
 			.grid-wrapper {
 				display: grid;
 				grid-gap: 10px;
-				grid-template-columns: 50% 50%;
+				grid-template-columns: 100%;
 				padding-bottom: 40px;	
 
 				.first-pic {
-					grid-column: 1/2;
-					grid-row:1;
+					grid-column: 1;
+					grid-row:2;
 
 					img {
 						box-shadow: 20px 20px $peach;
@@ -256,20 +256,20 @@ i {
 				}
 
 				.first-info{
-					grid-column: 2;
+					grid-column: 1;
 					grid-row:1;
 					align-self: center;
 				}
 
 				.second-info{
-					grid-column: 1/2;
-					grid-row:2;
+					grid-column: 1;
+					grid-row:3;
 					align-self: center;				
 				}
 
 				.second-pic {
-					grid-column: 2;
-					grid-row:2;
+					grid-column: 1;
+					grid-row:4;
 
 					img {
 						box-shadow: 20px 20px $peach;
@@ -279,8 +279,8 @@ i {
 				}
 
 				.third-pic {
-					grid-column: 1/2;
-					grid-row:3;
+					grid-column: 1;
+					grid-row:6;
 
 					img {
 						box-shadow: 20px 20px $peach;
@@ -289,8 +289,8 @@ i {
 				}
 
 				.third-info{
-					grid-column: 2;
-					grid-row:3;
+					grid-column: 1;
+					grid-row:5;
 					align-self: center;
 				}
 
